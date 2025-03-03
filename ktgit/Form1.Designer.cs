@@ -30,31 +30,54 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtmatkhau = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(105, 104);
+            this.label1.Location = new System.Drawing.Point(79, 84);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 16);
+            this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Username";
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(251, 104);
+            this.txtUsername.Location = new System.Drawing.Point(188, 84);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(213, 22);
+            this.txtUsername.Size = new System.Drawing.Size(161, 20);
             this.txtUsername.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(79, 127);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Mat khau";
+            // 
+            // txtmatkhau
+            // 
+            this.txtmatkhau.Location = new System.Drawing.Point(188, 127);
+            this.txtmatkhau.Name = "txtmatkhau";
+            this.txtmatkhau.Size = new System.Drawing.Size(147, 20);
+            this.txtmatkhau.TabIndex = 3;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -66,6 +89,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtmatkhau;
     }
 }
 
