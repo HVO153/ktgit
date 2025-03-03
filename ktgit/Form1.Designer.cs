@@ -38,59 +38,61 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(90, 108);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(120, 133);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 13);
+            this.label1.Size = new System.Drawing.Size(98, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên đăng nhập";
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(170, 103);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUserName.Location = new System.Drawing.Point(227, 127);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(279, 20);
+            this.txtUserName.Size = new System.Drawing.Size(371, 22);
             this.txtUserName.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(90, 161);
+            this.label2.Location = new System.Drawing.Point(120, 198);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.Size = new System.Drawing.Size(61, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Mật khẩu";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(170, 154);
+            this.txtPassword.Location = new System.Drawing.Point(227, 190);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(279, 20);
+            this.txtPassword.Size = new System.Drawing.Size(371, 22);
             this.txtPassword.TabIndex = 3;
             // 
             // btnlogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(268, 205);
-            this.btnlogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnlogin.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnlogin.Location = new System.Drawing.Point(357, 252);
+            this.btnlogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(56, 19);
+            this.btnlogin.Size = new System.Drawing.Size(125, 35);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "button1";
-            this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Text = "Đăng Nhập";
+            this.btnlogin.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
